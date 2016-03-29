@@ -1,5 +1,6 @@
 makeCacheMatrix <- function(x = matrix()) {
-## The first function, makeCacheMatrix, is a list containing a function to set a matrix, get a matrix, set the inverse of the matrix, and get the inverse of the matrix. This list will be used as the input for the next function, which is cacheSolve. 
+## The first function, makeCacheMatrix, is a list containing a function to set a matrix, get a matrix, set the inverse of the matrix, 
+   and get the inverse of the matrix. This list will be used as the input for the next function, which is cacheSolve. 
 makeCacheMatrix <- function(x = matrix()) {
 inv = NULL
 set = function(y) {
